@@ -15,6 +15,7 @@
     "set-nvm": "nvm use $(cat .node-version)"
   },
   "devDependencies": {
+    "@types/estree": "^1.0.5",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
   }
