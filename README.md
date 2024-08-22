@@ -1,28 +1,22 @@
 # Vite Ts Bulma Sass Template
 
 <p align="center">
-  <!-- node -->
-  <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Node.js-22.4.1-5FA04E.svg?logo=node.js&style=flat">
+  <a href="https://nodejs.org/en/">
+    <img src="https://img.shields.io/badge/Node.js-22.4.1-5FA04E.svg?logo=node.js&style=flat" alt="Node.js">
   </a>
-  <!-- pnpm -->
-  <a href="https://pnpm.io/ja/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/pnpm-9.2.0-F69220.svg?logo=pnpm&style=flat">
+  <a href="https://pnpm.io/ja/">
+    <img src="https://img.shields.io/badge/pnpm-9.2.0-F69220.svg?logo=pnpm&style=flat" alt="pnpm">
   </a>
-  <!-- Vite -->
-  <a href="https://ja.vitejs.dev/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Vite-5.4.1-646CFF.svg?logo=vite&style=flat">
+  <a href="https://ja.vitejs.dev/">
+    <img src="https://img.shields.io/badge/Vite-5.4.1-646CFF.svg?logo=vite&style=flat" alt="Vite">
   </a>
-  <!-- TypeScript -->
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/TypeScript-333.svg?logo=typescript&style=flat">
+  <a href="https://www.typescriptlang.org/">
+    <img src="https://img.shields.io/badge/TypeScript-333.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
-  <!-- Bulma -->
-  <a href="https://bulma.io/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Bulma-333.svg?logo=bulma&style=flat">
+  <a href="https://bulma.io/">
+    <img src="https://img.shields.io/badge/Bulma-333.svg?logo=bulma&style=flat" alt="Bulma">
   </a>
-  <!-- Sass -->
-  <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Sass-333.svg?logo=sass&style=flat">
+  <a href="https://sass-lang.com/">
+    <img src="https://img.shields.io/badge/Sass-333.svg?logo=sass&style=flat" alt="Sass">
   </a>
 </p>
