@@ -11,8 +11,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "set-nodebrew": "nodebrew use $(cat .node-version)",
-    "set-nvm": "nvm use $(cat .node-version)"
+    "set-nodebrew": "nodebrew install $(cat .node-version) && nodebrew use $(cat .node-version)",
+    "set-nvm": "nvm install $(cat .node-version) && nvm use $(cat .node-version)"
   },
   "devDependencies": {
     "@types/estree": "^1.0.5",
