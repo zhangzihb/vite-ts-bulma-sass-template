@@ -4,14 +4,14 @@ import { defineConfig } from "vite";
 export default defineConfig(() => {
   return {
     build: {
-      outDir: "dist",
+      outDir: "static",
       assetsDir: "assets",
       rollupOptions: {
         input: "src/index.ts",
         output: {
-          entryFileNames: `assets/[name].js`,
-          chunkFileNames: `assets/[name].js`,
-          assetFileNames: `assets/[name].[ext]`,
+          entryFileNames: `[name].js`,
+          chunkFileNames: `[name].js`,
+          assetFileNames: `[name].[ext]`,
         },
       },
     },
