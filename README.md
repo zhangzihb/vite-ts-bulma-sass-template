@@ -10,6 +10,9 @@
   <a href="https://ja.vitejs.dev/">
     <img src="https://img.shields.io/badge/Vite-5.4.1-646CFF.svg?logo=vite&style=flat" alt="Vite">
   </a>
+  <a href="https://biomejs.dev/">
+    <img src="https://img.shields.io/badge/Biome-1.8.3-5FA04E.svg?logo=biome&style=flat" alt="Biome">
+  </a>
   <a href="https://www.typescriptlang.org/">
     <img src="https://img.shields.io/badge/TypeScript-333.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
