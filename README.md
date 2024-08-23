@@ -13,6 +13,9 @@
   <a href="https://biomejs.dev/">
     <img src="https://img.shields.io/badge/Biome-1.8.3-5FA04E.svg?logo=biome&style=flat" alt="Biome">
   </a>
+  <a href="https://stylelint.io/">
+    <img src="https://img.shields.io/badge/Stylelint-16.8.2-5FA04E.svg?logo=stylelint&style=flat" alt="Stylelint">
+  </a>
   <a href="https://www.typescriptlang.org/">
     <img src="https://img.shields.io/badge/TypeScript-333.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>

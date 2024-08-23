@@ -15,6 +15,7 @@
     "format": "biome format --write src/ *.html",
     "lint": "biome lint --write src/ *.html",
     "check": "biome check --write src/ *.html",
+    "stylelint": "stylelint --fix 'src/**/*.scss'",
     "set-nodebrew": "nodebrew install $(cat .node-version); nodebrew use $(cat .node-version)",
     "set-nvm": "nvm install $(cat .node-version); nvm use $(cat .node-version)"
   },
@@ -23,6 +24,8 @@
     "@types/estree": "^1.0.5",
     "autoprefixer": "^10.4.20",
     "sass": "^1.77.8",
+    "stylelint": "^16.8.2",
+    "stylelint-config-standard-scss": "^13.1.0",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
   },
