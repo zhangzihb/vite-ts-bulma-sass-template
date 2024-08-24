@@ -31,7 +31,7 @@
 
 ## 特徴
 
-- 生のTypeScript を採用しているため、 Python の [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) や Go の [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/) などのテンプレートエンジンとの組み合わせ利用に優れています。
+- 生の [TypeScript](https://www.typescriptlang.org/) を採用しているため、 Python の [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) や Go の [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/) などのテンプレートエンジンとの組み合わせ利用に優れています。
 - CSS Framework には [Bulma](https://bulma.io/) を採用してます。また、 [Sass](https://sass-lang.com/) も導入しているため、スタイリングのカスタマイズ性にも優れています。
 - [Stylelint](https://stylelint.io/) や [Biome](https://biomejs.dev/) といったコードの静的解析の設定も行っております。
 
