@@ -27,11 +27,11 @@
   </a>
 </p>
 
-本リポジトリには、[Vite](https://ja.vitejs.dev/)ベースの [TypeScript](https://www.typescriptlang.org/), [Sass](https://sass-lang.com/), [Bulma](https://bulma.io/) などの簡易設定を行った開発用テンプレートが格納されています。
+本リポジトリには、 [Vite](https://ja.vitejs.dev/) ベースの [TypeScript](https://www.typescriptlang.org/), [Sass](https://sass-lang.com/), [Bulma](https://bulma.io/) などの簡易設定を行った開発用テンプレートが格納されています。
 
 ## 特徴
 
-- 生のTypeScript を採用しているため、 Python の[Jinja] (https://jinja.palletsprojects.com/en/3.1.x/) や Go の [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/) などのテンプレートエンジンとの組み合わせ利用に優れています。
+- 生のTypeScript を採用しているため、 Python の [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) や Go の [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/) などのテンプレートエンジンとの組み合わせ利用に優れています。
 - CSS Framework には [Bulma](https://bulma.io/) を採用してます。また、 [Sass](https://sass-lang.com/) も導入しているため、スタイリングのカスタマイズ性にも優れています。
 - [Stylelint](https://stylelint.io/) や [Biome](https://biomejs.dev/) といったコードの静的解析の設定も行っております。
 
@@ -92,8 +92,8 @@ import { defineConfig } from "vite";
 export default defineConfig(() => {
   return {
     build: {
-      - outDir: "static",
-      + outDir: "../static",
+-     outDir: "static",
++     outDir: "../static",
       assetsDir: "assets",
       rollupOptions: {
         input: "src/index.ts",
