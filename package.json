@@ -12,9 +12,9 @@
     "build": "tsc && vite build",
     "build:watch": "vite build --watch",
     "preview": "vite preview",
-    "format": "biome format --write src/ *.html *.ts *.json",
-    "lint": "biome lint --write src/ *.html *.ts *.json",
-    "check": "biome check --write src/ *.html *.ts *.json",
+    "format": "biome format --write src/ *.ts *.json",
+    "lint": "biome lint --write src/ *.ts *.json",
+    "check": "biome check --write src/ *.ts *.json",
     "stylelint": "stylelint --fix 'src/**/*.scss'",
     "set-nodebrew": "nodebrew install $(cat .node-version); nodebrew use $(cat .node-version)",
     "set-nvm": "nvm install $(cat .node-version); nvm use $(cat .node-version)"
