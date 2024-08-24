@@ -86,21 +86,21 @@ pnpm stylelint
 ex) ビルドファイル出力先を `親ディレクトリの static` に変更する
 
 ```diff
-import autoprefixer from "autoprefixer";
-import { defineConfig } from "vite";
+import autoprefixer from 'autoprefixer';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
     build: {
 -     outDir: "static",
 +     outDir: "../static",
-      assetsDir: "assets",
+      assetsDir: 'assets',
       rollupOptions: {
-        input: "src/index.ts",
+        input: 'src/index.ts',
         output: {
-          entryFileNames: `[name].js`,
-          chunkFileNames: `[name].js`,
-          assetFileNames: `[name].[ext]`,
+          entryFileNames: '[name].js',
+          chunkFileNames: '[name].js',
+          assetFileNames: '[name].[ext]',
         },
       },
     },
