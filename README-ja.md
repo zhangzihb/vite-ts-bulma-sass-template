@@ -2,6 +2,8 @@
 
 [English](./README.md) | [日本語](./README-ja.md)
 
+![ヒーローイメージ](/screenshot/hero.png)
+
 <p align="center">
   <a href="https://nodejs.org/en/">
     <img src="https://img.shields.io/badge/Node.js-22.4.1-5FA04E.svg?logo=node.js&style=flat" alt="Node.js">
