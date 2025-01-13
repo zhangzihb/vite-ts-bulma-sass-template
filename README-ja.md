@@ -29,57 +29,63 @@
   </a>
 </p>
 
-This repository contains a development template based on [Vite](https://ja.vitejs.dev/) configured with [TypeScript](https://www.typescriptlang.org/), [Sass](https://sass-lang.com/), [Bulma](https://bulma.io/), and more.
+本リポジトリには、 [Vite](https://ja.vitejs.dev/) ベースの [TypeScript](https://www.typescriptlang.org/), [Sass](https://sass-lang.com/), [Bulma](https://bulma.io/) などの簡易設定を行った開発用テンプレートが格納されています。
 
-## Features
+## 特徴
 
-- Uses raw [TypeScript](https://www.typescriptlang.org/), making it suitable for use with template engines like Python’s [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) or Go’s [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/).
-- [Bulma](https://bulma.io/) is used as the CSS Framework. [Sass](https://sass-lang.com/) is also included, providing excellent customization for styling.
-- Includes configurations for static analysis with tools like [Stylelint](https://stylelint.io/) and [Biome](https://biomejs.dev/).
+- 生の [TypeScript](https://www.typescriptlang.org/) を採用しているため、 Python の [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) や Go の [Gin/Multitemplate](https://gin-gonic.com/docs/examples/multiple-template/) などのテンプレートエンジンとの組み合わせ利用に優れています。
+- CSS Framework には [Bulma](https://bulma.io/) を採用してます。また、 [Sass](https://sass-lang.com/) も導入しているため、スタイリングのカスタマイズ性にも優れています。
+- [Stylelint](https://stylelint.io/) や [Biome](https://biomejs.dev/) といったコードの静的解析の設定も行っております。
 
-## Command List
+## コマンド一覧
 
-Install dependencies:
+依存インストール
 
 ```bash
 pnpm i --frozen-lockfile
 ```
 
-Watch build:
+ビルド
+
+```bash
+pnpm build
+```
+
+ビルド監視
 
 ```bash
 pnpm build:watch
 ```
 
-Biome format:
+Biome format
 
 ```bash
 pnpm format
 ```
 
-Biome lint:
+Biome Lint
 
 ```bash
 pnpm lint
 ```
 
-Biome Lint + format:
+Biome Lint + format
 
 ```bash
 pnpm check
 ```
 
-Sass Lint:
+Sass Lint
 
 ```bash
 pnpm stylelint
 ```
 
-## Changing the Build Output Directory
+## ビルドファイル出力先の変更
 
-You can change it by modifying the `outDir` value in vite.config.ts.
+[vite.config.ts](./vite.config.ts) の `outDir` の値を書き換えることで変更ができます。
 
-Example) Changing the build output to `static` in the parent directory
+ex) ビルドファイル出力先を 親ディレクトリの `static` に変更する
 
 ```diff
 import autoprefixer from 'autoprefixer';
